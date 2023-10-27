@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+
+
+<style>
+.btn-success{
+    color: #FFFFFF;
+    background-color: #5CB85F;
+    border: #5CB85F;
+    border-radius: 0%;
+}
+.text-head{
+    color: #000;
+
+/* Heading/24/Bold */
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 150% */
+  }
+  .text-body-bold{
+    color: #000;
+
+/* Title/16/Bold */
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+  }
+.text-body{
+    color: #000;
+
+/* Body/14/Light */
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+  }
+  .text-head-white{
+    color: var(--neutral-01, #FFF);
+text-align: center;
+font-family: Helvetica;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 54px */
+  }
+  .text-body-white{
+    color: var(--neutral-01, #FFF);
+text-align: center;
+
+/* Body/14/Light */
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+  }
+#hero-section{
+    /* background-color: #F1F3FF; */
+    z-index: 0;
+}
+#navbar-atas{
+    background-color: #F1F3FF;
+}
+#hero-navbar{
+    padding-top: 25px;
+}
+#hero-navbar ul{
+    list-style: none;
+    display: inline-block;
+
+}
+#hero-navbar li{
+    display: inline-block;
+    
+}
+#navbar-left {
+    padding-inline-start: 0px;
+}
+#navbar-left li{
+   
+}
+#navbar-right{
+    float: right;
+    display: inline
+}
+#navbar-right li{
+    margin-left: 32px;
+}
+#hero-navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+#hero-1{
+color: #000;
+font-family: Helvetica;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 54px */
+margin-bottom: 16px;
+max-width: 568px;
+}
+#hero-2{
+    color: #000;
+
+/* Body/14/Light */
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+margin-bottom: 16px;
+max-width: 468px;
+}
+#hero-text{
+    /* float: left;
+    padding-top: 118px;
+    display: inline-block; */
+    list-style: none;
+    padding-left: 0px;
+}
+#hero-text li{
+    margin-bottom: 20px;
+}
+#hero-image{
+    /* float: right;
+
+    padding-top: 37px;
+    display: inline-block; */
+}
+#hero-kiri{
+    /* padding-left: 0px;
+    padding-top: 118px; */
+    max-width: 568px;
+    /* max-width: 60%; */
+
+}
+#hero-kanan{
+    width: 704px;
+    z-index: 0;
+}
+#hero-kanan img{
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+}
+#hero-main .row{
+    /* margin: 0%; */
+    /* flex-wrap: nowrap; */
+}
+#hero-main{
+    background-color: #F1F3FF;
+}
+#hero-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-right: 0%; */
+}
+
+
+
+
+#features{
+
+}
+ #feature{
+  /* width: 1027px;
+height: 428px;
+margin-left: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+ }
+ #feature-image{
+  /* float: left;
+  margin-top: 5%; */
+  max-width: 459px;
+  margin-bottom: 20px;
+ }
+ #feature-image img{
+    max-width: 100%;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+ #feature-text{
+  /* float: right; */
+  max-width: 468px;
+    /* max-height:15%; */
+    /* margin-top: 15%; */
+ }
+ #feature-text li{
+  list-style-type: none;
+ }
+  #feature-text-main{
+    list-style: none;
+    padding-left: 0%;
+  }
+  #feature-text-main li{
+    margin-bottom: 20px;
+  }
+  #feature-1{
+
+  }
+
+  #feature-2{
+
+}
+#feature-text-second{
+    padding-left: 0%;
+}
+#feature-text-second a{
+
+}
+
+
+#why-atas-text{
+    list-style: none;
+    padding-left: 0%;
+}
+#why-bawah-text{
+    list-style: none;
+    padding: 24px;
+}
+#why-bawah{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#whyus_main{
+    max-height: 196x;
+    max-width: 328px;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-02, #D0D0D0);
+    margin-bottom: 16px;
+}
+#why-paling-atas{
+    margin-bottom: 16px;
+}
+#why-paling-bawah{
+    margin-bottom: 0%;
+}
+#testi-container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#testi-top{
+    display: flex;
+    justify-content: center;
+}
+#testi-atas-text{
+    list-style: none;
+    padding-left: 0%;
+    text-align: center;
+}
+#testi-atas-text li{
+    margin-bottom: 20px;
+}
+#testimonial-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #F1F3FF; */
+    border-radius: 13px;
+}
+
+#testimonial-item-left{
+    max-width: 415px;
+    background-color: #F1F3FF;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#testimonial-item-right{
+    max-width: 264px;
+    background-color: #F1F3FF;
+}
+#testimonial-text{
+    list-style: none;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+#testimonial-text li{
+    margin-bottom: 8px;
+}
+.testi-button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: none;
+}
+.image-right{
+  -webkit-transform: rotate(180deg);
+}
+
+#testi-bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#cta-container{
+   margin-bottom: 60px;
+}
+#cta-text{
+    background-color: #0D28A6;
+    border-radius: 13px;
+    list-style: none;
+    padding-top: 64px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    /* xxxxxxxxxxxxxxxxx */
+}
+#cta-text li{
+    margin-bottom: 16px;
+}
+.tengah{
+    text-align: center;
+    margin-top: 32px;
+    /* xxxxxxxxxxxxxxxx */
+}
+.accordion-item{
+  margin-bottom: 20px;
+}
+.accordion-body{
+    /* max-width: 668px; */
+}
+#faq-text{
+    list-style: none;
+    padding-left: 0%;
+}
+#footer-container{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    margin-top: 60px;
+}
+#footer-item ul{
+    list-style: none;
+    padding-left: 0%;
+}
+#footer-item li{
+    margin-bottom: 16px;
+}
+#footer-item img{
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 425px) {
+    #testimonial-container{
+    background-color: #F1F3FF;
+    }
+   
+}
+@media screen and (min-width: 1440px) {
+  #whyus_main{
+    max-height: 196x;
+    max-width: 280px;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-02, #D0D0D0);
+    margin-bottom: 16px;
+}
+  #testimonial-container{
+    background-color: #F1F3FF;
+    border-radius: 13px;
+    }
+  #testimonial-item-left{
+    max-width: 415px;
+    background-color: #F1F3FF;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+#testimonial-item-right{
+    max-width: 415px;
+    background-color: #F1F3FF;
+}
+    #faq-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #faq-left{
+        max-width: 368px;
+    }
+    #faq-right{
+        /* max-width: 668px; */
+    }
+    .accordion-item{
+        width: 668px;
+    }
+    .accordion-body{
+    max-width: 100%;
+    }
+    #footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+#testi-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#cta-container{
+   margin-bottom: 100px;
+}
+#cta-text{
+    background-color: #0D28A6;
+    border-radius: 13px;
+    list-style: none;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    /* padding-left: 60px;
+    padding-right: 60px; */
+    /* xxxxxxxxxxxxxxxxx */
+}
+.tengah{
+    text-align: center;
+    margin-top: 52px;
+    /* xxxxxxxxxxxxxxxx */
+}
+#feature{
+  /* width: 1027px;
+height: 428px;
+margin-left: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ #why-bawah{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#navbar-text{
+  align-items: center;
+}
+   
+}
+#navbar-fluid{
+  padding-left: 0%;
+  background-color: #F1F3FF;
+}
+#navbar-container{
+  background-color: #F1F3FF;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+#navbar-text{
+  
+}
+#navbar-text a{
+  color: #000;
+
+/* Body/14/Regular */
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+#offcanvasNavbar{
+  max-width: 50%;
+}
+.navbar-toggler{
+  border: none;
+}
+#formFilter{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    align-items: center;
+    padding:25px;
+    border-radius: 10px;
+    /* margin-top: -20px; */
+    z-index: 1;
+  margin-top: 20px;
+}
+#filter-item{
+ list-style: none;
+}
+.car-item{
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px rgba(53, 52, 52, 0.4);
+  max-width: 333px;
+  height: auto;
+  padding: 24px;
+}
+#cars-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; 
+  justify-items: center;
+}
+#btn-pilih{
+  width: 285px;
+  height: 48px;
+  
+}
+
+
+</style>
+
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<section id="navbar-atas">
+  <div class="container" id="navbar-container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" id="navbar-fluid">
+      <a class="navbar-brand" href="#"><svg width="100" height="34" viewBox="0 0 100 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100" height="34" fill="#0D28A6"/>
+        </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-head" id="offcanvasNavbarLabel">BCR</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" id="navbar-text">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimony</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" class="btn btn-success">Register</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+</section>
+<section id="hero-section">
+    <div id="hero-main">
+        <div class="container" id="hero-container"> 
+            <div id="hero-kiri">
+                <ul id="hero-text">
+                    <li class="text-head">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</li>
+                    <li class="text-body">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</li>
+                </ul>
+            </div>
+            <div id="hero-kanan">
+                <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/img_car_qsejyv.png">
+            </div>
+        </div>
+        </div>
+</section>
+<section id="filter-section">
+    <div class="filter-main">
+        <div id="filter-container" class="container">
+            <form id="formFilter">
+            <div >
+              <ul id="filter-item">
+                <li>
+                  <label>Tipe Transmisi</label>
+                </li>
+                <li>
+                  <select id="mySelect1" class="form-control">
+                    <option selected>Pilih tipe transmisi</option>
+                    <option value="Automatic">Automatic</option>
+                    <option value="Manual">Manual</option>
+                    <option value="Automanual">Automanual</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <div id="filter-item">
+              <ul  id="filter-item">
+                <li>
+                  <label>Tanggal</label>
+                </li>
+                <li>
+                  <input type="date" id="date" class="form-control">
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul  id="filter-item">
+                <li>
+                  <label>Ketersediaan mobil</label>
+                </li>
+                <li>
+                  <select id="mySelect2" class="form-control">
+                    <option value="true">Tersedia</option>
+                    <option value="false">Tidak tersedia</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <div id="filter-item">
+  <input type="number" class="form-control" id="input_jumlah" placeholder="Jumlah penumpang">
+            </div>
+            <button type="submit" class="btn btn-success" id="load-btn">Cari mobil</button>
+            <button id="clear-btn"  class="btn btn-success">Clear</button>
+        </form>
+        </div>
+        <div id="cars-container"></div>
+    </div>
+</section>
+<footer id="footer">
+    <div id="footer-container" class="container">
+      <div id="footer-item">
+        <ul class="footer-baris">
+          <li>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</li>
+          <li>binarcarrental@gmail.com</li>
+          <li>081-233-334-808</li>
+        </ul>
+      </div>
+      <div id="footer-item">
+        <ul class="footer-baris-bold">
+          <li><b>Our services</b></li>
+          <li><b>Why Us</b></li>
+          <li><b>Testimonial</b></li>
+          <li><b>Faq</b></li>
+        </ul>
+      </div>
+      <div id="footer-item">
+        <ul class="footer-baris">
+          <li>Connect with us</li>
+              <li><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612584/icon_facebook_ialwmu.png" alt="facebook">
+             <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612607/icon_instagram_o41fff.png" alt="facebook">
+              <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612626/icon_twitter_nu9swn.png" alt="facebook">
+              <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612640/icon_mail_a4eamm.png" alt="facebook">
+              <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612655/icon_twitch_h8wtr9.png" alt="facebook"></li>
+        </ul>
+      </div>
+      <div id="footer-item">
+        <ul class="footer-baris">
+          <li>Copyright Binar 2022</li>
+          <li>
+            <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694616058/Rectangle_74_rrmdrc.png" alt="logo">
+          </li>
+        </ul>
+      </div>
+  
+    </div>
+  </footer>
+  <script type="text/javascript" src="./scripts/binar.js"></script>
+  <script type="text/javascript" src="./scripts/app.example.js"></script>
+  <script type="text/javascript" src="./scripts/car.example.js"></script>
+  <script type="text/javascript" src="./scripts/main.example.js"></script>
+</body>
+</html>

@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+
+
+<style>
+.btn-success{
+    color: #FFFFFF;
+    background-color: #5CB85F;
+    border: #5CB85F;
+    border-radius: 0%;
+}
+.text-head{
+    color: #000;
+
+/* Heading/24/Bold */
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 150% */
+  }
+  .text-body-bold{
+    color: #000;
+
+/* Title/16/Bold */
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+  }
+.text-body{
+    color: #000;
+
+/* Body/14/Light */
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+  }
+  .text-head-white{
+    color: var(--neutral-01, #FFF);
+text-align: center;
+font-family: Helvetica;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 54px */
+  }
+  .text-body-white{
+    color: var(--neutral-01, #FFF);
+text-align: center;
+
+/* Body/14/Light */
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+  }
+#hero-section{
+    /* background-color: #F1F3FF; */
+}
+#navbar-atas{
+    background-color: #F1F3FF;
+}
+#hero-navbar{
+    padding-top: 25px;
+}
+#hero-navbar ul{
+    list-style: none;
+    display: inline-block;
+
+}
+#hero-navbar li{
+    display: inline-block;
+    
+}
+#navbar-left {
+    padding-inline-start: 0px;
+}
+#navbar-left li{
+   
+}
+#navbar-right{
+    float: right;
+    display: inline
+}
+#navbar-right li{
+    margin-left: 32px;
+}
+#hero-navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+#hero-1{
+color: #000;
+font-family: Helvetica;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 54px */
+margin-bottom: 16px;
+max-width: 568px;
+}
+#hero-2{
+    color: #000;
+
+/* Body/14/Light */
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+margin-bottom: 16px;
+max-width: 468px;
+}
+#hero-text{
+    /* float: left;
+    padding-top: 118px;
+    display: inline-block; */
+    list-style: none;
+    padding-left: 0px;
+}
+#hero-text li{
+    margin-bottom: 20px;
+}
+#hero-image{
+    /* float: right;
+
+    padding-top: 37px;
+    display: inline-block; */
+}
+#hero-kiri{
+    /* padding-left: 0px;
+    padding-top: 118px; */
+    max-width: 568px;
+    /* max-width: 60%; */
+
+}
+#hero-kanan{
+    width: 704px;
+}
+#hero-kanan img{
+    max-width: 100%;
+    height: auto;
+}
+#hero-main .row{
+    /* margin: 0%; */
+    /* flex-wrap: nowrap; */
+}
+#hero-main{
+    background-color: #F1F3FF;
+}
+#hero-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-right: 0%; */
+}
+
+
+
+
+#features{
+
+}
+ #feature{
+  /* width: 1027px;
+height: 428px;
+margin-left: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+ }
+ #feature-image{
+  /* float: left;
+  margin-top: 5%; */
+  max-width: 459px;
+  margin-bottom: 20px;
+ }
+ #feature-image img{
+    max-width: 100%;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+ #feature-text{
+  /* float: right; */
+  max-width: 468px;
+    /* max-height:15%; */
+    /* margin-top: 15%; */
+ }
+ #feature-text li{
+  list-style-type: none;
+ }
+  #feature-text-main{
+    list-style: none;
+    padding-left: 0%;
+  }
+  #feature-text-main li{
+    margin-bottom: 20px;
+  }
+  #feature-1{
+
+  }
+
+  #feature-2{
+
+}
+#feature-text-second{
+    padding-left: 0%;
+}
+#feature-text-second a{
+
+}
+
+
+#why-atas-text{
+    list-style: none;
+    padding-left: 0%;
+}
+#why-bawah-text{
+    list-style: none;
+    padding: 24px;
+}
+#why-bawah{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#whyus_main{
+    max-height: 196x;
+    max-width: 328px;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-02, #D0D0D0);
+    margin-bottom: 16px;
+}
+#why-paling-atas{
+    margin-bottom: 16px;
+}
+#why-paling-bawah{
+    margin-bottom: 0%;
+}
+#testi-container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#testi-top{
+    display: flex;
+    justify-content: center;
+}
+#testi-atas-text{
+    list-style: none;
+    padding-left: 0%;
+    text-align: center;
+}
+#testi-atas-text li{
+    margin-bottom: 20px;
+}
+#testimonial-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #F1F3FF; */
+    border-radius: 13px;
+}
+
+#testimonial-item-left{
+    max-width: 415px;
+    background-color: #F1F3FF;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#testimonial-item-right{
+    max-width: 264px;
+    background-color: #F1F3FF;
+}
+#testimonial-text{
+    list-style: none;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+#testimonial-text li{
+    margin-bottom: 8px;
+}
+.testi-button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: none;
+}
+.image-right{
+  -webkit-transform: rotate(180deg);
+}
+
+#testi-bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#cta-container{
+   margin-bottom: 60px;
+}
+#cta-text{
+    background-color: #0D28A6;
+    border-radius: 13px;
+    list-style: none;
+    padding-top: 64px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    /* xxxxxxxxxxxxxxxxx */
+}
+#cta-text li{
+    margin-bottom: 16px;
+}
+.tengah{
+    text-align: center;
+    margin-top: 32px;
+    /* xxxxxxxxxxxxxxxx */
+}
+.accordion-item{
+  margin-bottom: 20px;
+}
+.accordion-body{
+    /* max-width: 668px; */
+}
+#faq-text{
+    list-style: none;
+    padding-left: 0%;
+}
+#footer-container{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    margin-top: 60px;
+}
+#footer-item ul{
+    list-style: none;
+    padding-left: 0%;
+}
+#footer-item li{
+    margin-bottom: 16px;
+}
+#footer-item img{
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 425px) {
+    #testimonial-container{
+    background-color: #F1F3FF;
+    }
+   
+}
+@media screen and (min-width: 1440px) {
+  #whyus_main{
+    max-height: 196x;
+    max-width: 280px;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-02, #D0D0D0);
+    margin-bottom: 16px;
+}
+  #testimonial-container{
+    background-color: #F1F3FF;
+    border-radius: 13px;
+    }
+  #testimonial-item-left{
+    max-width: 415px;
+    background-color: #F1F3FF;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+#testimonial-item-right{
+    max-width: 415px;
+    background-color: #F1F3FF;
+}
+    #faq-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #faq-left{
+        max-width: 368px;
+    }
+    #faq-right{
+        /* max-width: 668px; */
+    }
+    .accordion-item{
+        width: 668px;
+    }
+    .accordion-body{
+    max-width: 100%;
+    }
+    #footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+#testi-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#cta-container{
+   margin-bottom: 100px;
+}
+#cta-text{
+    background-color: #0D28A6;
+    border-radius: 13px;
+    list-style: none;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    /* padding-left: 60px;
+    padding-right: 60px; */
+    /* xxxxxxxxxxxxxxxxx */
+}
+.tengah{
+    text-align: center;
+    margin-top: 52px;
+    /* xxxxxxxxxxxxxxxx */
+}
+#feature{
+  /* width: 1027px;
+height: 428px;
+margin-left: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ #why-bawah{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#navbar-text{
+  align-items: center;
+}
+   
+}
+#navbar-fluid{
+  padding-left: 0%;
+  background-color: #F1F3FF;
+}
+#navbar-container{
+  background-color: #F1F3FF;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+#navbar-text{
+  
+}
+#navbar-text a{
+  color: #000;
+
+/* Body/14/Regular */
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+#offcanvasNavbar{
+  max-width: 50%;
+}
+.navbar-toggler{
+  border: none;
+}
+</style>
+
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<section id="navbar-atas">
+  <div class="container" id="navbar-container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" id="navbar-fluid">
+      <a class="navbar-brand" href="#"><svg width="100" height="34" viewBox="0 0 100 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100" height="34" fill="#0D28A6"/>
+        </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-head" id="offcanvasNavbarLabel">BCR</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" id="navbar-text">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimony</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" class="btn btn-success">Register</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+</section>
+<section id="hero-section">
+    <div id="hero-main">
+        <div class="container" id="hero-container"> 
+            <div id="hero-kiri">
+                <ul id="hero-text">
+                    <li class="text-head">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</li>
+                    <li class="text-body">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</li>
+                    <li><button type="button" class="btn btn-success" onclick="redirectToSearch()">Mulai Sewa Mobil</button></li>
+                </ul>
+            </div>
+            <div id="hero-kanan">
+                <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/img_car_qsejyv.png">
+            </div>
+        </div>
+        </div>
+</section>
+
+<section id="features">
+    <div id="feature" class="container">
+      <div id="feature-image"><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/img_service_axmvrm.png" alt="features"></div>
+      <div id="feature-text">
+    <ul id="feature-text-main">
+        <li id="feature-1" class="text-head">Best Car Rental for any kind of trip in (Lokasimu)!</li>
+        <li id="feature-2" class="text-body">Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</li>
+        <li><ul class="feature-list" id="feature-text-second">
+          <li class="text-body">
+            <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/Group_53_qzspsu.png">Sewa Mobil Dengan Supir di Bali 12 Jam
+          </li>
+          <li class="text-body">
+            <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/Group_53_qzspsu.png">Sewa Mobil Lepas Kunci di Bali 24 Jam
+          </li>
+          <li class="text-body">
+            <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/Group_53_qzspsu.png">Sewa Mobil Jangka Panjang Bulanan
+          </li>
+          <li class="text-body">
+            <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/Group_53_qzspsu.png">Gratis Antar - Jemput Mobil di Bandara
+          </li>
+          <li class="text-body">
+            <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/Group_53_qzspsu.png">Layanan Airport Transfer / Drop In Out
+          </li>
+        </ul>
+        </li>
+    </ul>
+      </div>
+    </div>
+  </section>
+
+<section id="why-us">
+    <div id="why-us-main">
+    <div class="container">
+        <div id="why-atas">
+            <ul id="why-atas-text">
+                <li class="text-head">
+                    Why Us?
+                </li>
+                <li class="text-body">
+                    Mengapa harus pilih Binar Car Rental?
+                </li>
+            </ul>
+        </div>
+        <div id="why-bawah">
+            <div id="whyus_main">
+                <ul id="why-bawah-text">
+                <li id="why-paling-atas"><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184613/icon_complete_uw4zrg.png"></li>
+                <li class="text-body-bold" id="why-paling-atas">Mobil Lengkap</li>
+                <li class="text-body" id="why-paling-bawah">Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</li>
+                </ul>
+              </div>
+              <div id="whyus_main">
+                <ul id="why-bawah-text">
+                <li id="why-paling-atas"><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/icon_price_zweqbx.png"></li>
+                <li class="text-body-bold" id="why-paling-atas">Harga Murah</li>
+                <li class="text-body" id="why-paling-bawah">Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</li>
+            </ul>
+              </div>
+              <div id="whyus_main">
+                <ul id="why-bawah-text">
+                <li id="why-paling-atas"><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/icon_24hrs_qudkhe.png"></li>
+                <li class="text-body-bold" id="why-paling-atas">Layanan 24 Jam</li>
+                <li class="text-body" id="why-paling-bawah">Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</li>
+            </ul>
+              </div>
+              <div id="whyus_main">
+                <ul id="why-bawah-text">
+                <li class="text-head" id="why-paling-atas"><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694184614/icon_professional_gihuni.png"></li>
+                <li class="text-body-bold" id="why-paling-atas">Sopir Profesional</li>
+                <li class="text-body" id="why-paling-bawah">Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</li>
+            </ul>
+              </div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="testimonial">
+    <div id="testi-main">
+    <div class="container" id="testi-container">
+            
+    <div id="testi-top">
+        <ul id="testi-atas-text">
+            <li class="text-head">Testimonial</li>
+            <li class="text-body">Berbagai review positif dari para pelanggan kami</li>
+        </ul>
+    </div>
+    <div id="carousel" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div id="testimonial-container">
+              <div id="testimonial-item-left">
+                <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694663819/img_photo_r7hzhg.png" alt="avatar1">
+              </div>
+              <div id="testimonial-item-right">
+                <ul id="testimonial-text">
+                  <li><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694663949/Rate_lbzjmg.png" alt="rating"></li>
+                  <li>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</li>
+                  <li><strong>John Dee 32, Bromo</strong></li>
+                </ul>
+              </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <div id="testimonial-container">
+              <div id="testimonial-item-left">
+                <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694671382/img_photo2_admcww.png" alt="avatar2">
+              </div>
+              <div id="testimonial-item-right">
+                <ul id="testimonial-text">
+                  <li><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694663949/Rate_lbzjmg.png" alt="rating"></li>
+                  <li>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</li>
+                  <li><strong>John Dee 32, Bromo</strong></li>
+                </ul>
+              </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <div id="testimonial-container">
+              <div id="testimonial-item-left">
+                <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694663819/img_photo_r7hzhg.png" alt="avatar1">
+              </div>
+              <div id="testimonial-item-right">
+                <ul id="testimonial-text">
+                  <li><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694663949/Rate_lbzjmg.png" alt="rating"></li>
+                  <li>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</li>
+                  <li><strong>John Dee 32, Bromo</strong></li>
+                </ul>
+              </div>
+           </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div id="testi-bottom">
+        <button class="testi-button" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694671031/fi_chevron-left_domdr4.png" alt="left">
+        </button>
+        <button class="testi-button" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <img class="image-right" src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694671031/fi_chevron-left_domdr4.png" alt="right">
+    
+        </button>
+    </div>
+
+  
+      </div>
+  
+        </div>
+    </div>
+</section>
+
+<section id="cta">
+    <div id="cta-main">
+        <div class="container" id="cta-container">
+            <ul id="cta-text">
+                <li class="text-head-white">Sewa Mobil di (Lokasimu) Sekarang</li>
+                <li class="text-body-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                <li class="tengah"><button type="button" class="btn btn-success">Mulai Sewa Mobil</button></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="faq">
+    <div id="faq-main">
+        <div id="faq-container" class="container">
+            <div id="faq-left">
+                <ul id="faq-text">
+                    <li class="text-head">Frequently Asked Question</li>
+                    <li class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                </ul>
+              </div>
+
+              <div id="faq-right">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Apa saja syarat yang dibutuhkan?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.            </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Berapa hari minimal sewa mobil lepas kunci?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.            </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Apakah Ada biaya antar-jemput?
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.            </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Bagaimana jika terjadi kecelakaan
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div id="footer-container" class="container">
+      <div id="footer-item">
+        <ul class="footer-baris">
+          <li>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</li>
+          <li>binarcarrental@gmail.com</li>
+          <li>081-233-334-808</li>
+        </ul>
+      </div>
+      <div id="footer-item">
+        <ul class="footer-baris-bold">
+          <li><b>Our services</b></li>
+          <li><b>Why Us</b></li>
+          <li><b>Testimonial</b></li>
+          <li><b>Faq</b></li>
+        </ul>
+      </div>
+      <div id="footer-item">
+        <ul class="footer-baris">
+          <li>Connect with us</li>
+              <li><img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612584/icon_facebook_ialwmu.png" alt="facebook">
+             <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612607/icon_instagram_o41fff.png" alt="facebook">
+              <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612626/icon_twitter_nu9swn.png" alt="facebook">
+              <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612640/icon_mail_a4eamm.png" alt="facebook">
+              <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694612655/icon_twitch_h8wtr9.png" alt="facebook"></li>
+        </ul>
+      </div>
+      <div id="footer-item">
+        <ul class="footer-baris">
+          <li>Copyright Binar 2022</li>
+          <li>
+            <img src="https://res.cloudinary.com/dgm5qtyrg/image/upload/v1694616058/Rectangle_74_rrmdrc.png" alt="logo">
+          </li>
+        </ul>
+      </div>
+  
+    </div>
+  </footer>
+  <script>
+    function redirectToSearch() {
+        window.location.href = "/redirectToCars";
+    }
+</script>
+</body>
+</html>
